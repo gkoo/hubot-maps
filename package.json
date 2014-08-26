@@ -1,17 +1,33 @@
 {
   "name": "hubot-maps",
-  "version": "0.0.0",
   "description": "A Hubot script for searching maps and directions",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "0.0.0",
+  "author": "gkoo",
+  "license": "MIT",
   "keywords": [
     "hubot",
+    "hubot-scripts"
     "google",
     "maps",
     "directions"
   ],
-  "author": "gkoo",
-  "license": "MIT"
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gkoo/hubot-maps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gkoo/hubot-maps/issues"
+  },
+
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "dependencies": {},
+
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
 }
