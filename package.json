@@ -29,5 +29,5 @@
 
   "peerDependencies": {
     "hubot": "2.x"
-  },
+  }
 }
